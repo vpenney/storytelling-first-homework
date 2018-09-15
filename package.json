@@ -1,0 +1,34 @@
+{
+  "name": "01-homework",
+  "version": "1.0.0",
+  "main": "01-chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix **/*.js",
+    "prettier": "prettier --write graph.js",
+    "build": "parcel build src/homework.html --out-dir docs --public-url storytelling-first-homework"
+  },
+  "author": "Veronica",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpenney/storytelling-first-homework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vpenney/storytelling-first-homework/issues"
+  },
+  "homepage": "https://github.com/vpenney/storytelling-first-homework#readme",
+  "description": ""
+}
