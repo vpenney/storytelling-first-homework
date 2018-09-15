@@ -25,7 +25,7 @@
     .domain(['', 'cat', 'cow', 'dog', ' '])
     .range([height, 0])
 
-  d3.csv('eating-data.csv')
+  d3.csv(require('./eating-data.csv')).then(ready)
     .then(ready)
     .catch(function (err) {
       console.log('Failed with', err)

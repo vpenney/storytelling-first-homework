@@ -34,7 +34,7 @@
     .domain([0, 10])
     .range([0, 50])
 
-  d3.csv('eating-data.csv')
+  d3.csv(require('./eating-data.csv')).then(ready)
     .then(ready)
     .catch(function (err) {
       console.log('Failed with', err)

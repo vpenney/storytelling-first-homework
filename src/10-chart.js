@@ -25,7 +25,7 @@
     .domain([0, 10])
     .range([height, 0])
 
-  d3.csv(required('eating-data.csv')).then(ready)
+  d3.csv(require('./eating-data.csv')).then(ready)
     .then(ready)
     .catch(function (err) {
       console.log('Failed with', err)
