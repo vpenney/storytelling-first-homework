@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --fix **/*.js",
     "prettier": "prettier --write graph.js",
-    "build": "parcel build src/index.html --out-dir docs --public-url docs"
+    "build": "parcel build src/index.html --out-dir docs"
   },
   "author": "Veronica",
   "license": "ISC",
