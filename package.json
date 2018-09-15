@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --fix **/*.js",
     "prettier": "prettier --write graph.js",
-    "build": "parcel build src/homework.html --out-dir docs --public-url storytelling-first-homework"
+    "build": "parcel build src/index.html --out-dir docs --public-url storytelling-first-homework"
   },
   "author": "Veronica",
   "license": "ISC",
